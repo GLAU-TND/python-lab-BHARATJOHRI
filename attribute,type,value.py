@@ -16,5 +16,5 @@ except TypeError as e:
 try:
     a = 10
     print(a.count)
-except TypeError as e:
+except AttributeError as e:
     print(e)
